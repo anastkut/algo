@@ -50,8 +50,7 @@ class Solution:
                         dist_to_nodes[new_dist].add(child)
                         
                         distances[child] = new_dist
-            
-            
+    
         return distances
                     
         
